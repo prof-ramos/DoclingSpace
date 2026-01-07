@@ -29,3 +29,25 @@ Conversor de documentos (formatos suportados pelo Docling) para **Markdown** e/o
 - `max_file_size_mb` default: **200MB**
 
 Ajuste esses limites na UI conforme necessário.
+
+## Desenvolvimento e Sincronização
+
+Este projeto está sincronizado entre o GitHub e o Hugging Face Spaces.
+
+### Git Remotes
+
+- **GitHub (`origin`)**:
+  [https://github.com/prof-ramos/DoclingSpace](https://github.com/prof-ramos/DoclingSpace)
+- **Hugging Face (`hf`)**: `https://huggingface.co/spaces/SherlockRamos/DoclingSpace`
+
+### Sincronização
+
+Para atualizar ambos os repositórios:
+
+```bash
+# Push para o GitHub
+git push origin main
+
+# Push para o Hugging Face
+git push hf main
+```
