@@ -1,0 +1,5 @@
+docling
+pandas
+spaces
+torch
+gradio>=5.0.0
